@@ -10,7 +10,8 @@ const Hero = () => {
     useEffect(()=>{
         const bestProduct = product.filter((items) => {
             item.bestSeller;
-        })
+        });
+        
         SetBestSeller(bestSeller.slice(0,5));
         console.log(products);
         console.log(bestProduct);
